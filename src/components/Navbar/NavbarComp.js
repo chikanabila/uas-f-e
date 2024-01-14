@@ -18,7 +18,7 @@ const NavbarComp = () => {
   })
 
   return (
-    <div className="sticky-top">
+    <div className="fixed-top">
      <Navbar expand="lg" variant="dark" className={changeColor ? "color-active" : ""}>
       <Container>
         <Navbar.Brand href="#home" className='fw-bold fs-4'>Abing's</Navbar.Brand>
